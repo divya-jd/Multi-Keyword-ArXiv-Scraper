@@ -1,6 +1,6 @@
 # Multi-Keyword ArXiv Scraper — 100-Paper Run Results
 
-> *Automatically harvest, filter, and enrich quantum computing research papers from arXiv — complete with extracted figures and figure captions, ready for downstream AI/RAG pipelines.*
+> *Automatically harvest, filter, and enrich quantum computing research papers from arXiv, complete with extracted figures and figure captions, ready for downstream AI/RAG pipelines.*
 
 ---
 
@@ -256,4 +256,4 @@ RESULTS_PER_BATCH   = 500    # API results per keyword batch
 
 ---
 
-*Built as part of a distributed RAG pipeline for quantum computing research.*
+
