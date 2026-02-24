@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+
+quantum_arxiv_papers/
+extracted_images/
+metadata.csv
+image_descriptions.csv
+progress.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
