@@ -1,4 +1,4 @@
-# Multi-Keyword ArXiv Scraper — 100-Paper Run Results
+# Multi-Keyword ArXiv Scraper 
 
 > *Automatically harvest, filter, and enrich quantum computing research papers from arXiv, complete with extracted figures and figure captions, ready for downstream AI/RAG pipelines.*
 
@@ -163,7 +163,7 @@ paper_image_extractor/
 
 ---
 
-## Expected Output — Screenshots
+## Expected Output (for a 100 paper run)
 
 ### Terminal during a run
 
@@ -177,12 +177,12 @@ paper_image_extractor/
   PDF dir:       /Users/.../quantum_arxiv_papers
   Workers:       8 threads
 
-🔑 150 unique keywords → 10 query batches
+🔑 150 unique keywords -> 10 query batches
 
 📦 Batch 1/10 — Adiabatic Theorem, Bosonic Creutz Ladder…
    (0/6000 unique papers so far)
   Batch 1: 100%|████████████████████| 500/500 [01:12<00:00]
-   → 487 new, 13 duplicates
+   -> 487 new, 13 duplicates
 
 Processing papers: 100%|████████| 487/487 [dl=102, skip=0, imgs=843]
 ```
@@ -230,7 +230,7 @@ Processing papers: 100%|████████| 487/487 [dl=102, skip=0, imgs=
 
 ---
 
-## 🔧 Configuration Reference
+## Configuration Reference
 
 All tunable constants are at the top of `arxiv_quantum_scraper.py`:
 
